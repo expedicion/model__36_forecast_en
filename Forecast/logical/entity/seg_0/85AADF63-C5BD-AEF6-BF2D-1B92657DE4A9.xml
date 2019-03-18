@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85AADF63-C5BD-AEF6-BF2D-1B92657DE4A9" name="FORECAST">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-18 21:21:34 UTC</createdTime>
+<ownerDesignName>Forecast</ownerDesignName>
+<engineerTo>
+<item key="C989ED26-1E36-2CE4-0AFE-9769516DE675" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Data" id="94563F7E-670E-13C8-1F6F-0CB984138E71">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-18 21:24:05 UTC</createdTime>
+<ownerDesignName>Forecast</ownerDesignName>
+<engineerTo>
+<item key="C989ED26-1E36-2CE4-0AFE-9769516DE675" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Minimum_temperature" id="F54BAD6A-62D2-BF40-BB25-A1CA59363DDA">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-18 21:24:13 UTC</createdTime>
+<ownerDesignName>Forecast</ownerDesignName>
+<engineerTo>
+<item key="C989ED26-1E36-2CE4-0AFE-9769516DE675" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Maximum_temperature" id="9F1E1057-04B4-0E1E-DB60-A4ECA8CA67B8">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-18 21:24:28 UTC</createdTime>
+<ownerDesignName>Forecast</ownerDesignName>
+<engineerTo>
+<item key="C989ED26-1E36-2CE4-0AFE-9769516DE675" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Wind_force" id="CB510AE6-DEAB-F606-584A-278A77D9FDE3">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-18 21:24:43 UTC</createdTime>
+<ownerDesignName>Forecast</ownerDesignName>
+<engineerTo>
+<item key="C989ED26-1E36-2CE4-0AFE-9769516DE675" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="983F844E-3D73-B8AD-99BC-DB3C62237297">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-18 21:27:01 UTC</createdTime>
+<generatorID>E57DBAA3-49C0-BB4A-800F-694A3D25114F</generatorID>
+<ownerDesignName>Forecast</ownerDesignName>
+<engineerTo>
+<item key="C989ED26-1E36-2CE4-0AFE-9769516DE675" value="true"/>
+</engineerTo>
+<referedAttribute>694D2ED6-B111-AA7E-CD9D-0FBA604A81FF</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Icon" id="BC89E617-FD60-DE61-5A8D-134F52295B9A">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-18 21:27:07 UTC</createdTime>
+<generatorID>C79599FD-09B3-EFF6-7FFE-E8010DD7C963</generatorID>
+<ownerDesignName>Forecast</ownerDesignName>
+<engineerTo>
+<item key="C989ED26-1E36-2CE4-0AFE-9769516DE675" value="true"/>
+</engineerTo>
+<referedAttribute>13DAF3A2-36D3-993D-6712-747D37CE78B3</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Icon1" id="D635201D-FEA7-30D3-0B00-7DF606500EC7">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-18 21:27:12 UTC</createdTime>
+<generatorID>615A26D8-47E9-50C7-D61C-219F4004DEAA</generatorID>
+<ownerDesignName>Forecast</ownerDesignName>
+<engineerTo>
+<item key="C989ED26-1E36-2CE4-0AFE-9769516DE675" value="true"/>
+</engineerTo>
+<referedAttribute>FACBD346-74CE-DFFB-79C8-6FBA8B46A78A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C4700DF5-39D1-858A-C36E-7F6AA3A2F666" name="FORECAST PK">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-18 21:24:11 UTC</createdTime>
+<ownerDesignName>Forecast</ownerDesignName>
+<engineerTo>
+<item key="C989ED26-1E36-2CE4-0AFE-9769516DE675" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>94563F7E-670E-13C8-1F6F-0CB984138E71</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

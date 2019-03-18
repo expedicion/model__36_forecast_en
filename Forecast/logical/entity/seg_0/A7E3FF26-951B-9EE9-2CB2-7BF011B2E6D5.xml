@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7E3FF26-951B-9EE9-2CB2-7BF011B2E6D5" name="WEATHER_TYPE">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-18 21:21:56 UTC</createdTime>
+<ownerDesignName>Forecast</ownerDesignName>
+<engineerTo>
+<item key="C989ED26-1E36-2CE4-0AFE-9769516DE675" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Icon" id="13DAF3A2-36D3-993D-6712-747D37CE78B3">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-18 21:24:59 UTC</createdTime>
+<ownerDesignName>Forecast</ownerDesignName>
+<engineerTo>
+<item key="C989ED26-1E36-2CE4-0AFE-9769516DE675" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="6DBDB7D8-6BA0-213E-96D6-5FDC8983DA4A">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-18 21:25:08 UTC</createdTime>
+<ownerDesignName>Forecast</ownerDesignName>
+<engineerTo>
+<item key="C989ED26-1E36-2CE4-0AFE-9769516DE675" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A8DA4674-5915-5372-6049-B9390F1614E2" name="WEATHER_TYPE PK">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-18 21:25:05 UTC</createdTime>
+<ownerDesignName>Forecast</ownerDesignName>
+<engineerTo>
+<item key="C989ED26-1E36-2CE4-0AFE-9769516DE675" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>13DAF3A2-36D3-993D-6712-747D37CE78B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

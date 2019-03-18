@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="58697F83-E33E-BD8F-DBB5-2358A9498E02" name="CITY">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-18 21:21:21 UTC</createdTime>
+<ownerDesignName>Forecast</ownerDesignName>
+<engineerTo>
+<item key="C989ED26-1E36-2CE4-0AFE-9769516DE675" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="694D2ED6-B111-AA7E-CD9D-0FBA604A81FF">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-18 21:22:53 UTC</createdTime>
+<ownerDesignName>Forecast</ownerDesignName>
+<engineerTo>
+<item key="C989ED26-1E36-2CE4-0AFE-9769516DE675" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gegraphical_position" id="991528AD-0B59-8C9F-7E4C-596631FA7426">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-18 21:23:06 UTC</createdTime>
+<ownerDesignName>Forecast</ownerDesignName>
+<engineerTo>
+<item key="C989ED26-1E36-2CE4-0AFE-9769516DE675" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name1" id="21AE0C85-5BB1-B94E-49EE-4037E0944D06">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-18 21:26:53 UTC</createdTime>
+<generatorID>70D59B65-B650-4E7A-BAC8-083893C3DB67</generatorID>
+<ownerDesignName>Forecast</ownerDesignName>
+<engineerTo>
+<item key="C989ED26-1E36-2CE4-0AFE-9769516DE675" value="true"/>
+</engineerTo>
+<referedAttribute>84EFF2D7-2F11-1220-B7D1-A919549CEEBC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="48D3315E-241B-C322-44C0-67536EF1165D" name="CITY PK">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-18 21:23:04 UTC</createdTime>
+<ownerDesignName>Forecast</ownerDesignName>
+<engineerTo>
+<item key="C989ED26-1E36-2CE4-0AFE-9769516DE675" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>694D2ED6-B111-AA7E-CD9D-0FBA604A81FF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
